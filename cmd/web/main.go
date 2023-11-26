@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/ketzalmax/bookings/pkg/config"
-	"github.com/ketzalmax/bookings/pkg/handlers"
-	"github.com/ketzalmax/bookings/pkg/render"
+	"github.com/ketzalmax/bookings/internal/config"
+	"github.com/ketzalmax/bookings/internal/handlers"
+	"github.com/ketzalmax/bookings/internal/render"
 )
 
 const portNumber = "localhost:8080"
